@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{AD9F41EE-0909-4C64-BB18-11C2BA513304}|Default">
+  <MonoDevelop.Ide.ItemProperties.Sales.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sales/HomePage.xaml.cs">
+    <Files>
+      <File FileName="Sales/MainPage.xaml" Line="7" Column="42" />
+      <File FileName="Sales/MainPage.xaml.cs" />
+      <File FileName="Sales/Login.xaml" />
+      <File FileName="Sales/Login.xaml.cs" Line="17" Column="39" />
+      <File FileName="Sales/HomePage.xaml" Line="1" Column="1" />
+      <File FileName="Sales/HomePage.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sales" expanded="True">
+            <Node name="Sales" expanded="True">
+              <Node name="HomePage.xaml" expanded="True">
+                <Node name="HomePage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Sales.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+            <Node name="Sales.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Sales.Android PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+</Properties>

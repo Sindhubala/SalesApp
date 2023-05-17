@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "kjrRVF93v5qw/aizs7jSNSI1d4v1267b9XflFCZifOtsF3a0QZ8SRINuFsZd9oYxTe3Kt4do6SMURvndqy9dJA==",
+  "success": true,
+  "projectFilePath": "/Users/sindhubala/Projects/Sales/Sales.iOS/Sales.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/sindhubala/.nuget/packages/system.componentmodel/4.3.0/system.componentmodel.4.3.0.nupkg.sha512",
+    "/Users/sindhubala/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/sindhubala/.nuget/packages/xamarin.communitytoolkit/2.0.6/xamarin.communitytoolkit.2.0.6.nupkg.sha512",
+    "/Users/sindhubala/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/sindhubala/.nuget/packages/xamarin.forms/5.0.0.2578/xamarin.forms.5.0.0.2578.nupkg.sha512",
+    "/Users/sindhubala/.nuget/packages/xamarin.forms.pancakeview/2.3.0.759/xamarin.forms.pancakeview.2.3.0.759.nupkg.sha512"
+  ],
+  "logs": []
+}

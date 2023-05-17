@@ -1,0 +1,17 @@
+/Users/sindhubala/Projects/Sales/Sales/bin/Debug/netstandard2.0/Sales.deps.json
+/Users/sindhubala/Projects/Sales/Sales/bin/Debug/netstandard2.0/Sales.dll
+/Users/sindhubala/Projects/Sales/Sales/bin/Debug/netstandard2.0/ref/Sales.dll
+/Users/sindhubala/Projects/Sales/Sales/bin/Debug/netstandard2.0/Sales.pdb
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/Sales.csproj.AssemblyReference.cache
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/Sales.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/Sales.AssemblyInfoInputs.cache
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/Sales.AssemblyInfo.cs
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/Sales.csproj.CoreCompileInputs.cache
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/Sales.dll
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/ref/Sales.dll
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/Sales.pdb
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/Login.xaml.g.cs
+/Users/sindhubala/Projects/Sales/Sales/obj/Debug/netstandard2.0/HomePage.xaml.g.cs
