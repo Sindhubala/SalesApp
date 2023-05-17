@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="Sales.MainPage" NavigationPage.HasNavigationBar="False">
+
+    <StackLayout BackgroundColor="#f1f278">
+        <Label Text="&#xf186;"
+               FontFamily="{StaticResource FontAwesomeSolid}"
+               FontSize="35"
+               TextColor="Black"
+               Margin="10"
+               Rotation="-60"
+               HorizontalOptions="StartAndExpand"/>
+        <Grid  Margin="0,100,0,0">
+            <yummy:PancakeView
+                CornerRadius="250,250 ,0,0"
+                BackgroundColor="#7cd7fb"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                HeightRequest="350"
+                WidthRequest="250"> 
+            </yummy:PancakeView>
+            <Image 
+                HeightRequest="400"
+                Margin="0,-100,0,0"
+                Source="men.png"/>
+            <Frame
+                HeightRequest="50"
+                WidthRequest="50"
+                CornerRadius="50"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                HasShadow="False"
+                BackgroundColor="White"
+                Padding="0"
+                Margin="250,180,0,0">
+                <Label
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"
+                    Text="&#xf621;"
+                    FontFamily="{StaticResource FontAwesomeSolid}"
+                    FontSize="20"
+                    TextColor="Black"/>
+            </Frame>
+            
+        </Grid>
+        <StackLayout Margin="30">
+            <Label
+                Text="Get Started"
+                TextColor="Black"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="EndAndExpand"
+                FontSize="Medium"
+                FontFamily="playfairDisplayBold"/>
+            <Label
+                Text="Now Consistent"
+                TextColor="Black"
+                HorizontalOptions="Start"
+                VerticalOptions="EndAndExpand"
+                FontSize="40"
+                FontFamily="playfairDisplay"/>
+            <Label
+                Text="Growth In_"
+                TextColor="Black"
+                HorizontalOptions="Start"
+                VerticalOptions="EndAndExpand"
+                FontSize="40"
+                FontFamily="playfairDisplay"/>
+            <Label
+                Text="Sales Division"
+                TextColor="Black"
+                HorizontalOptions="Start"
+                VerticalOptions="EndAndExpand"
+                FontSize="40"
+                FontFamily="playfairDisplay"/>
+            </StackLayout>
+        <StackLayout Orientation="Horizontal"
+                     Margin="20"
+                     >
+            <Label
+                Text="Skip Now"
+                TextColor="Black"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="EndAndExpand"
+                FontSize="Medium"
+                Margin="30,0,0,7"
+                FontFamily="playfairDisplayBold"/>
+            <Button
+                Text="Login"
+                BackgroundColor="Black"
+                TextColor="White"
+                Margin="0,0,30,0"
+                CornerRadius="10"
+                WidthRequest="120"
+                Clicked="Button_Clicked"/>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

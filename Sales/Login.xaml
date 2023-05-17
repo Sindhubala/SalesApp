@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:tool="http://xamarin.com/schemas/2020/toolkit"
+    x:Class="Sales.Login" NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            <Label Text="&#xf186;" 
+               FontFamily="{StaticResource FontAwesomeSolid}"
+               FontSize="35"
+               TextColor="Black"
+               Margin="10"
+               Rotation="-60"
+               HorizontalOptions="StartAndExpand"/>
+           <StackLayout
+               VerticalOptions="CenterAndExpand"
+               Margin="0,150,0,0">
+                <StackLayout
+                    Margin="30,0,0,0">
+                    <Label
+                        Text="Hey,"
+                        TextColor="Black"
+                        FontSize="40"
+                        FontFamily="playfairDisplay"/>
+                    <Label
+                        Text="Login Now !"
+                        TextColor="Black"
+                        FontSize="40"
+                        FontFamily="playfairDisplay"/>
+                </StackLayout>
+            
+                <StackLayout Orientation="Horizontal" Margin="30,40,0,25">
+                    <Label
+                        Text="I am a Old User"
+                        FontSize="Medium"
+                        TextColor="Black"
+                        FontFamily="playfairDisplay"/>
+                    <Label
+                        Text="/"
+                        FontSize="Medium"
+                        TextColor="Black"
+                        FontFamily="playfairDisplay"/>
+                    <Label
+                        Text="Create New"
+                        FontSize="Medium"
+                        TextColor="Black"
+                        FontFamily="playfairDisplay"/>
+                </StackLayout>
+                <Frame Margin="30,20,30,0"
+                       BackgroundColor="LightGray"
+                       HeightRequest="50"
+                       Padding="3">
+                    <StackLayout Orientation="Horizontal">
+                        <Entry
+                            Text="Dstudio Agency"
+                            TextColor="Black"
+                            FontFamily="playfairDisplay">
+                            <Entry.Effects>
+                                <tool:RemoveBorderEffect />
+                            </Entry.Effects>
+                        </Entry>
+                        <Frame
+                            BackgroundColor="White"
+                            HeightRequest="25"
+                            WidthRequest="25"
+                            CornerRadius="25"
+                            HasShadow="False"
+                            HorizontalOptions="EndAndExpand"
+                            VerticalOptions="Center"
+                            Padding="0"
+                            Margin="0,0,20,0">
+                            <Label Text="&#xf00c;"
+                               FontFamily="{StaticResource FontAwesomeSolid}"
+                               FontSize="15"
+                               TextColor="Black"
+                               Margin="5"
+                               HorizontalOptions="StartAndExpand">
+
+                            </Label>
+
+                        </Frame>
+                    </StackLayout>
+                </Frame>
+               
+                <Frame
+                    Margin="30,20,30,0"
+                    BackgroundColor="LightGray"
+                    HeightRequest="50"
+                    Padding="3">
+                    <Entry
+                        Placeholder="Password"
+                        PlaceholderColor="Gray"
+                        TextColor="Black"
+                        FontFamily="playfairDisplay"
+                        IsPassword="True">
+                        <Entry.Effects>
+                                <tool:RemoveBorderEffect />
+                            </Entry.Effects>
+                    </Entry>
+                </Frame>
+               <StackLayout Orientation="Horizontal" Margin="30,20,0,0"
+                            Padding="0,5,0,50">
+                    <Label
+                        Text="Forget Password? /"
+                        FontSize="Medium"
+                        TextColor="Black"
+                        FontFamily="playfairDisplay"/>
+                    <Label
+                        Text="Reset"
+                        FontSize="Medium"
+                        TextColor="Black"
+                        FontFamily="playfairDisplay"
+                        />
+                </StackLayout>
+               <Button
+                   VerticalOptions="CenterAndExpand"
+                   Margin="30,10,30,0"
+                   HeightRequest="50"
+                   Text="Login Now"
+                   TextColor="Black"
+                   BackgroundColor="#f1f278"
+                   FontAttributes="Bold"
+                   CornerRadius="10"
+                   Clicked="Button_Clicked"></Button>
+               <Label
+                   Text="Skip Now"
+                   TextColor="Black"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="Center"
+                   Margin="20"
+                   FontSize="17">
+                   <Label.GestureRecognizers>
+                       <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
+                   </Label.GestureRecognizers>
+               </Label>
+
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
